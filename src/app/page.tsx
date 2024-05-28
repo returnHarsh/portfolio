@@ -6,7 +6,6 @@ import Hero from "@/components/Hero";
 import Project from "@/components/Project";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
-import Image from "next/image";
 import { CiHome } from "react-icons/ci";
 
 export default function Home() {

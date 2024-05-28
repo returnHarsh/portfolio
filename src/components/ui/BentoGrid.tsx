@@ -3,7 +3,7 @@
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./Gradient";
 import { GlobeDemo } from "./GridGlobe";
-import Lootie from "react-lottie";
+// import Lootie from "react-lottie";
 import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
@@ -138,12 +138,12 @@ export const BentoGridItem = ({
           {id == 6 && (
             <div onClick={handleEmailClick} className="mt-5 relative">
               <div className={`absolute -bottom-5 right-0`}>
-                <Lootie options={{
+                {/* <Lootie options={{
                   loop: copied,
                   autoplay: copied,
                   animationData: animationData,
                   rendererSettings: { preserveAspectRatio: "xMidYMID slice" }
-                }} />
+                }} /> */}
               </div>
 
               <MagicButton
