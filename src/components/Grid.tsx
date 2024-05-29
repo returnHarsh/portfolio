@@ -5,7 +5,7 @@ import { gridItems } from '../data/index'
 
 const Grid = () => {
   return (
-    <div>
+    <div className='mt-4'>
         <section>
             <BentoGrid>
                {

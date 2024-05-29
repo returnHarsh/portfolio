@@ -51,26 +51,26 @@ const TechStack = ()=>{
 
             <div className='flex flex-col w-full'>
             <h1 className='text-purple text-xl lg:text-2xl  text-left'>Programming Languages </h1>
-            <div className='flex gap-4 font-light mt-4 text-sm '>
-                <span className='flex flex-col justify-center items-center' > <SiCplusplus size={35}/> C++</span>
-                <span className='flex flex-col justify-center items-center' > <IoLogoJavascript size={35} /> Javascript</span>
-                <span className='flex flex-col justify-center items-center' > <SiTypescript size={35} /> Typescript</span>
-                <span className='flex flex-col justify-center items-center' > <FaHtml5 size={35} /> HTML</span>
-                <span className='flex flex-col justify-center items-center' > <SiMongodb size={35} /> Mongoose</span>
+            <div className='flex flex-wrap gap-4 font-light mt-4 text-sm '>
+                <span className='flex flex-col justify-center items-center' > <SiCplusplus size={30} /> C++</span>
+                <span className='flex flex-col justify-center items-center' > <IoLogoJavascript size={30} /> Javascript</span>
+                <span className='flex flex-col justify-center items-center' > <SiTypescript size={30}  /> Typescript</span>
+                <span className='flex flex-col justify-center items-center' > <FaHtml5 size={30}  /> HTML</span>
+                <span className='flex flex-col justify-center items-center' > <SiMongodb size={30}  /> Mongoose</span>
             </div>
             </div>
 
             <div className='flex flex-col w-full'>
             <h1 className='text-purple text-xl lg:text-2xl  text-left'>Framework </h1>
             <div className='flex gap-2 flex-wrap  font-light text-sm '>
-               <span className=' p-2 rounded-md flex flex-col justify-center items-center'> <RiReactjsFill size={35} />  React Js</span>
-                <span className=' p-2 rounded-md flex flex-col justify-center items-center'> <SiNextdotjs size={35} /> Next Js</span>
-                <span className=' p-2 rounded-md flex flex-col justify-center items-center'> <SiExpress size={35} /> Express Js</span>
-                <span className=' p-2 rounded-md flex flex-col justify-center items-center'> <FaNodeJs size={35}/> Node Js</span>
-                <span className=' p-2 rounded-md flex flex-col justify-center items-center'> <SiMongodb size={35} /> MongoDB</span>
-                <span className=' p-2 rounded-md flex flex-col justify-center items-center'> <SiChakraui size={35} /> Chakra Ui</span>
-                <span className=' p-2 rounded-md flex flex-col justify-center items-center'> <FaCss3Alt size={35}/> CSS</span>
-                <span className=' p-2 rounded-md flex flex-col justify-center items-center'> <RiTailwindCssFill size={35} /> Tailwind CSS</span>
+               <span className=' p-2 rounded-md flex flex-col justify-center items-center'> <RiReactjsFill size={30} />  React Js</span>
+                <span className=' p-2 rounded-md flex flex-col justify-center items-center'> <SiNextdotjs size={30} /> Next Js</span>
+                <span className=' p-2 rounded-md flex flex-col justify-center items-center'> <SiExpress size={30} /> Express Js</span>
+                <span className=' p-2 rounded-md flex flex-col justify-center items-center'> <FaNodeJs size={30}/> Node Js</span>
+                <span className=' p-2 rounded-md flex flex-col justify-center items-center'> <SiMongodb size={30} /> MongoDB</span>
+                <span className=' p-2 rounded-md flex flex-col justify-center items-center'> <SiChakraui size={30} /> Chakra Ui</span>
+                <span className=' p-2 rounded-md flex flex-col justify-center items-center'> <FaCss3Alt size={30}/> CSS</span>
+                <span className=' p-2 rounded-md flex flex-col justify-center items-center'> <RiTailwindCssFill size={30} /> Tailwind CSS</span>
             </div>
             </div>
 

@@ -18,7 +18,7 @@ const Hero = () => {
   return (
     <>
       <BackgroundGradientAnimation>
-        <div className='pb-20 pt-36'>
+        <div className='pb-20 pt-36 border '>
 
           {/* act as a wrapper for the components coming from acertinity */}
           <div>

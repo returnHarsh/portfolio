@@ -15,14 +15,14 @@ const RecentProjects = () => {
                 <span className='text-purple'>recent projects</span>
             </h1>
 
-            <div className='flex flex-wrap items-center justify-center p-4 gap-10'>
+            <div className='flex flex-wrap items-center justify-center p-4 gap-x-10 gap-y-[70px]'>
 
                 {projects.map(({ title, id, des, img, iconLists, link } , index) => {
                     return <>
-                        <div key={index} className='  lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center  sm:w-[45vw] w-[80vw] '>
+                        <div key={index} className='lg:min-h-[32.5rem]  h-[25rem]  flex items-center justify-center  sm:w-[45vw] w-[80vw] '>
 
                             <PinContainer title={title} href={link}>
-                                <div className=' border relative flex items-center justify-center sm:w-[38vw] w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] '>
+                                <div className='  border relative flex items-center justify-center sm:w-[38vw] w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] '>
                                     <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
                                         <img src="/bg.png" alt="bg-img" />
                                     </div>
