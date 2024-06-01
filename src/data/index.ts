@@ -199,32 +199,32 @@ export const companies = [
   },
 ];
 
-export const workExperience = [
+export const achievements = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Edu Skills MERN stack certification",
+    desc: "Completed a 4 weeks MERN STACK internship at Edu Skills",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Leetcode Ranking 1447",
+    desc: " Secured rank of 1447 in leetcode by attending contests ",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Solved over 500+ DSA questions online",
+    desc: "Solved DSA questinos on various platforms like Leetcode , Geeks For Geeks and Coding Ninja",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "11000+ points on Coding Ninja",
+    desc: "Achieved 11,000+ points on Coding Ninja, demonstrating strong problem-solving skills and coding proficiency.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
