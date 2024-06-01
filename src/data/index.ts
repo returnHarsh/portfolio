@@ -247,3 +247,5 @@ export const socialMedia = [
     link : "https://www.linkedin.com/in/harsh-raj-166778225/"
   },
 ];
+
+
